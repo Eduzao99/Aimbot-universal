@@ -575,7 +575,3 @@ local function Cleanup()
         ToggleNoClip()
     end
 end
-
--- Evento de limpeza
-Players.PlayerRemoving:Connect(function(player)
-    if player
